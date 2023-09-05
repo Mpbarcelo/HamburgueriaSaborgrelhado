@@ -130,14 +130,14 @@ body {
 
 .home-img img {
   margin-top: 50px;
-  max-width: 80%;
+  max-width: 100%;
   
 }
 
 /* Estilo do sobre */
 
 .img-sobre {
-  width: 700px;
+  width: 800px;
 }
 
 #sobre img {
@@ -462,3 +462,4 @@ input[type="submit"]:hover {
     font-size: 2rem; /* Ajuste o tamanho do título conforme necessário */
   }
  
+}
