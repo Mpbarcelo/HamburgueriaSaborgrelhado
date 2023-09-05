@@ -1,3 +1,7 @@
+/**
+ * @type {HTMLFormElement}
+ */
+const form = document.getElementById("form");
 const menu = document.querySelector(".menu");
 const NavMenu = document.querySelector(".nav-menu");
 
@@ -7,6 +11,7 @@ menu.addEventListener("click", () => {
 });
 
 // Função para validar o formulário
+
 document.addEventListener("submit", function validarFormulario(evento) {
   evento.preventDefault();
   var nome = document.getElementById("nome").value;
@@ -30,6 +35,7 @@ document.addEventListener("submit", function validarFormulario(evento) {
   }
 
   // Verifica se a quantidade é um número positivo
+
   if (isNaN(quantidade) || quantidade <= 0) {
     alert("A quantidade deve ser um número positivo.");
     return;
@@ -37,4 +43,6 @@ document.addEventListener("submit", function validarFormulario(evento) {
 
   // Se a validação passar, o formulário será enviado
   alert("Recebemos o seu pedido. Agradecemos a sua preferência!");
+  form.reset();
+  
 });

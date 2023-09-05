@@ -104,7 +104,6 @@ body {
   margin-bottom: 1rem;
 }
 
-
 .home-text .text-h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -131,13 +130,12 @@ body {
 .home-img img {
   margin-top: 50px;
   max-width: 100%;
-  
 }
 
 /* Estilo do sobre */
 
 .img-sobre {
-  width: 800px;
+  width: calc(100vw - 40px);
 }
 
 #sobre img {
@@ -252,7 +250,6 @@ section.sobre .flex {
 .menu-card:hover {
   transform: scale(1.1);
 }
-
 
 /* Estilos para o formulário de pedido */
 .contato {
@@ -430,19 +427,17 @@ input[type="submit"]:hover {
     font-size: 15px;
   }
 
-  .home-img {
-    width: 125%;
-  }
+  
+
   .sobre .flex {
     flex-direction: column; /* Coloque os elementos em coluna */
     align-items: center; /* Centralize os elementos */
   }
 
   .sobre .img-sobre img {
-    max-width: 50%; 
-    height: 50%; 
+    max-width: 50%;
+    height: 50%;
     margin-top: 40px;
-    
   }
 
   .sobre .txt-sobre h2 {
@@ -461,5 +456,7 @@ input[type="submit"]:hover {
   .sobre .txt-sobre h2 {
     font-size: 2rem; /* Ajuste o tamanho do título conforme necessário */
   }
- 
+  .flex-title{
+    margin-top: 0;
+  }
 }
