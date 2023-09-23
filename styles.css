@@ -49,14 +49,14 @@ body {
   gap: 5rem;
 }
 
-.navigation ul li a {
+.navigation ul a li {
   color: var(--dark);
   font-size: 17px;
   font-weight: 500;
   transition: all 0.5s;
 }
 
-.navigation ul li a:hover {
+.navigation ul a li:hover {
   color: var(--red);
 }
 

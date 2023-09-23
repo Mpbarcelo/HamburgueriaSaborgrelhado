@@ -10,6 +10,11 @@ menu.addEventListener("click", () => {
   NavMenu.classList.toggle("ativo");
 });
 
+NavMenu.addEventListener("click", () => {
+  menu.classList.remove("ativo");
+  NavMenu.classList.remove("ativo");
+});
+
 // Função para validar o formulário
 
 document.addEventListener("submit", function validarFormulario(evento) {
