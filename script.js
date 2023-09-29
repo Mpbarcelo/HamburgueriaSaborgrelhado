@@ -18,7 +18,7 @@ NavMenu.addEventListener("click", () => {
 // Função para validar o formulário
 
 document.addEventListener("submit", function validarFormulario(evento) {
-  evento.preventDefault();
+  
   var nome = document.getElementById("nome").value;
   var endereco = document.getElementById("endereco").value;
   var telefone = document.getElementById("telefone").value;

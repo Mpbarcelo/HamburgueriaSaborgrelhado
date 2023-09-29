@@ -268,7 +268,7 @@
       <section id="contato" class="contato">
         <h2 class="form">Formulário de Pedido</h2>
         <div class="container">
-          <form id="form">
+          <form id="form" action="https://formsubmit.co/marcia-333@hotmail.com" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" />
 
@@ -340,6 +340,11 @@
             <textarea id="observacoes" name="observacoes" rows="4"></textarea>
 
             <input type="submit" value="Enviar Pedido" />
+            <input
+            type="hidden"
+            name="_next"
+            value="https://mpbarcelo.github.io/HamburgueriaSaborgrelhado/"
+          />
           </form>
         </div>
       </section>
